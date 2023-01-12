@@ -1,0 +1,45 @@
+body{
+background-color:rgb(4, 255, 255);
+font-family: 'Times New Roman', Times, serif;
+font-size: medium;
+color:black;
+}
+
+img{
+border:solid red 1px;
+padding: 10px;
+width: 250px;
+opacity: 0,5;
+}
+
+h1{
+   border-bottom: 2px solid red;
+   color: red (255, 0, 0);
+   font-size: 16px;
+   text-align: center;
+   text-transform: uppercase;
+}
+
+a:link {
+    color:rgb(173, 3, 3);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(152, 6, 30);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(54, 20, 155);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgb(209, 6, 6);
+    background-color: transparent;
+    text-decoration: underline;
+}
