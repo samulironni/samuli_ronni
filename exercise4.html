@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's Learn Flex Box</title>
+
+    <style>
+    section {
+        display: flex;
+        flex-direction: column;
+        }
+    article {
+         flex:1;
+        }
+    body {
+        margin: 0;
+      }
+
+    header, footer {
+        background: purple;
+        height: 100px;
+    }
+
+    h1 {
+        text-align: center;
+        color: white;
+        line-height: 100px;
+        margin: 0;
+      }
+
+    article {
+        padding: 10px;
+        margin: 10px;
+        background: aqua;
+      }
+      /* The sidebar menu */
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    top: 100px; 
+    left: 0;
+    background-color:white;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+  }
+  
+  /* The navigation menu links */
+.sidenav a {
+    padding: 10px 12px 16px 24px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: #818181;
+    display: block;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #000000;
+  }
+  
+  /* Style page content */
+  .main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+      </style>
+</head>
+<body>
+    <div class="sidenav">
+        <a href="#">Sidebar 1</a>
+        <a href="#">Sidebar 2</a>
+        <a href="#">Sidebar 3</a>
+        <a href="#">Sidebar 4</a>
+    </div>
+
+    <div class="main">
+    <header>    
+        <h1>Flex Box Examples </h1>
+      </header>
+      <section>
+          
+        <article>
+          <h2>What is HTML?</h2>
+          <p>
+            Hypertext Markup Language (HTML) is the standard markup language for 
+            documents that are designed to be displayed in a web browser. HTML is not a programming language. 
+            It is a markup language that tells browser how to structure a web page. HTML is made up of sereis of elements such as a piece of text, a pragraph, 
+             list, table, links or forms.
+          </p>
+        </article>
+  
+        <article>
+          <h2>HTML Elements</h2>
+  
+          <p>
+            As in the above example, html document consists of a tree of elements and text. 
+            Each element starts with a tag and ends with a tag.
+             Tags have to be nested such that they are completely within each other without overlapping .
+          </p>
+        </article>
+    </section>
+        <article>
+          <h2>Block Level Elements</h2>
+  
+          <p>
+            Block-level elements form a visible block on a page. A block-level element appears on a new line 
+            following the content that precedes it. Any content that follows a block-level element also 
+            appears on a new line. Block-level elements are usually structural elements on the page.
+             For example, a block-level element might represent headings, paragraphs, lists, navigation 
+             menus, or footers. A block-level element wouldn't 
+            be nested inside an inline element, but it might be nested inside another block-level element.
+          </p>
+        </article>
+    </div>
+   
+    <footer>
+    <h1>Learning Flex @ 2022</h1>
+    </footer>
+</body>
+</html>
