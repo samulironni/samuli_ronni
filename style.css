@@ -8,8 +8,14 @@ color:black;
 .img1{
 border:solid rgb(254, 0, 0) 1px;
 padding: 10px;
-width: 250px;
+width: 160px;
 opacity: 0,5;
+}
+
+.img2{
+border: rgb(254, 0, 0) 1px;
+padding: 10px; 
+opacity: 0,5;   
 }
 
 h1{
